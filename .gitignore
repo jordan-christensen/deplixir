@@ -35,3 +35,8 @@ deplixir-*.tar
 npm-debug.log
 /assets/node_modules/
 
+# Ignore secrets files
+/config/*.secret.exs
+
+# Ignore local cert files
+/tmp/
